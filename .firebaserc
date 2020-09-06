@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-myapp0014": {
+      "hosting": {
+        "my-project-name": [
+          "angular-myapp0014"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-myapp0014gg"
+  }
+}

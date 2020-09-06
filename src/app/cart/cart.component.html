@@ -1,18 +1,18 @@
 <p>
-cart!
+  cart!
 </p>
 
 <p><a routerLink="/shipping">Shipping</a></p>
-  <button (click)="clearCart()">clearCart</button>
-<br>
-<br>
+<button (click)="clearCart()">clearCart</button>
+<br />
+<br />
 
 <div class="cart-item" *ngFor="let item of items">
   <span>{{ item.name }}</span>
   <span>{{ item.price | currency }}</span>
 </div>
 
-<form [formGroup]="checkoutForm" (ngSubmit)="onSubmit(checkoutForm.value)">
+<!-- <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit(checkoutForm.value)">
   <div>
     <label for="name">
       Name
@@ -26,5 +26,4 @@ cart!
   </div>
 
   <button class="button" type="submit">purchase</button>
-</form>
-
+</form> -->
